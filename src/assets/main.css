@@ -1,0 +1,148 @@
+@import './base.css';
+a,
+.green {
+  text-decoration: none;
+  color: hsl(57, 100%, 50%);
+  transition: 0.4s;
+}
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(32, 98%, 62%, 0.34);
+  }
+}
+#cabecalho {
+  background-color: #545454;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 #000000D8;
+  margin: 0 0 1rem 0;
+}
+#barra_nav{
+  margin: auto;
+}
+#navigate{
+  margin: auto;
+}
+#logo_corsol{
+  width: 8.125rem;
+  margin: 0.4rem 0.4rem 0 0;
+}
+#foto_corsol{
+  display: inline-block;
+}
+#btn_opt:hover{
+  cursor: pointer;
+  background-color: rgba(255, 136, 0, 0.8);
+}
+#btn_opt, #icon_menu{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+}
+#usina{
+  text-align: center;
+  width: 99%;
+  margin: auto;
+}
+table{
+  width: 100%;
+  height: auto;
+}
+#card_info_dia{
+  background-color: rgba(8, 169, 2, 0.95);
+  color: #000000;
+  width: 100%;
+  margin: auto;
+  margin-top: -3rem;
+  border-radius: 0.55rem;
+  padding: 8px;
+  display: flex;
+  box-shadow: 0 4px 8px 3px #000000D8;
+  transition: 0.3s;
+}
+#card_info_dia:hover{
+  box-shadow: 0 8px 16px 3px #000000D8;
+}
+#card_info_dinheiro{
+  background-color: rgba(0, 5, 152, 0.93);
+  color: #000000;
+  width: 100%;
+  margin: auto;
+  margin-top: -3rem;
+  border-radius: 0.55rem;
+  padding: 8px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 #000000D8;
+  transition: 0.3s;
+}
+#card_info_dinheiro:hover{
+  box-shadow: 0 8px 16px 0 #000000D8;
+}
+#card_info_media{
+  background-color: rgba(255, 204, 0, 0.84);
+  color: #000000;
+  width: 100%;
+  border-radius: 0.55rem;
+  padding: 8px;
+  display: flex;
+  box-shadow: 0 4px 8px 3px #000000D8;
+  transition: 0.3s;
+}
+#card_info_media:hover{
+  box-shadow: 0 8px 16px 3px #000000D8;
+}
+#card_info_sustentavel{
+  background-color: rgba(0, 169, 152, 0.93);
+  color: #000000;
+  width: 100%;
+  border-radius: 0.55rem;
+  padding: 8px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 #000000D8;
+  transition: 0.3s;
+}
+#card_info_sustentavel:hover{
+  box-shadow: 0 8px 16px 0 #000000D8;
+}
+#eneGerada{
+  margin: auto;
+  text-align: center;
+}
+#eneGerada:hover{
+  cursor: auto;
+}
+#info_num{
+  font-weight: bolder;
+  margin: auto;
+}
+#div_img_info{
+  margin: auto;
+}
+#img_eneGerada{
+  width: 2.8rem;
+  margin: auto;
+}
+#titulo{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+#onde_vai_texto{
+  margin: 0.175rem;
+}
+#texto_explicativo{
+  background-color: rgba(134, 134, 134, 0.93);
+  color: #000000;
+  width: 100%;
+  border-radius: 0.55rem;
+  padding: 8px;
+  margin: 0 1rem 0 0rem;
+  text-align: justify;
+  box-shadow: 0 4px 8px 0 #000000D8;
+  transition: 0.3s;
+}
+#texto_explicativo:hover{
+  box-shadow: 0 8px 16px 3px #000000D8;
+}
